@@ -3,7 +3,7 @@ class Solution(object):
         result=[]
         for i in words:
             lowi=i.lower()
-            if lowi.strip("qwertyuiop")=="" or lowi.strip("asdfghjkl")=="" or lowi.strip("asdfghjkl")=="":
+            if lowi.strip("qwertyuiop")=="" or lowi.strip("asdfghjkl")=="" or lowi.strip("zxcvbnm")=="":
                 result.append(i)
         return result
 a=Solution()
