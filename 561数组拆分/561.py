@@ -1,5 +1,4 @@
-class Solution(object):
-    def arrayPairSum(self, nums):
+丞
         sortedNum=sorted(nums)
         if  len(sortednum)%2:
             return False
